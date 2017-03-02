@@ -1,0 +1,50 @@
+                      -664055425<?xml version="1.0" encoding="iso-8859-1"?>
+      <rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns="http://my.netscape.com/rdf/simple/0.9/">
+
+        <channel>
+          <title>Linux Today</title>
+          <link>http://linuxtoday.com</link>
+          <description>Linux Today News Service</description>
+        </channel>
+
+		<image>
+			<title>Linux Today</title>
+			<url>http://linuxtoday.com/pics/ltnet.png</url>
+			<link>http://linuxtoday.com</link>
+		</image>
+
+        <item>
+          <title>The LXer Interview: Dave Wreski of EnGarde Secure Linux</title>
+          <link>http://linuxtoday.com/news_story.php3?ltsn=2007-07-24-018-35-IN-BZ-LF</link>
+        </item>
+
+        <item>
+          <title>New at ComputerShopper.com: Build a Ubuntu-Based $250 PC</title>
+          <link>http://linuxtoday.com/news_story.php3?ltsn=2007-07-24-017-35-RV-DT</link>
+        </item>
+
+        <item>
+          <title>Why Linux has failed on the desktop: kernel developer Con Colivas</title>
+          <link>http://linuxtoday.com/news_story.php3?ltsn=2007-07-24-016-35-IN-KN-OO</link>
+        </item>
+
+        <item>
+          <title>Open Source and Web 2.0</title>
+          <link>http://linuxtoday.com/news_story.php3?ltsn=2007-07-24-002-26-OP-EV</link>
+        </item>
+
+        <item>
+          <title>Fedora 8 Test 1</title>
+          <link>http://linuxtoday.com/news_story.php3?ltsn=2007-07-24-015-35-OS-RL</link>
+        </item>
+
+
+<textinput>
+<title>Search</title>
+<description>Search Linux Today:</description>
+<name>query</name>
+<link>http://linuxtoday.com/search.php3</link>
+</textinput>
+</rdf:RDF>

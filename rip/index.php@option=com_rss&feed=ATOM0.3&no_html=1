@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<feed version="0.3" xmlns="http://purl.org/atom/ns#">
+	<title>Núcleo do Evento</title>
+	<tagline>Núcleo do Evento RSS Feed</tagline>
+	<link rel="alternate" type="text/html" href="http://www.nucleodoevento.com.br"/>
+	<id>http://www.nucleodoevento.com.br</id>
+	<modified>2017-03-02T03:16:35+01:00</modified>
+	<generator>FeedCreator 1.7.2</generator>
+	<entry>
+		<title>Núcleo do Evento!</title>
+		<link rel="alternate" type="text/html" href="index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=2"/>
+		<created>2004-06-12T11:54:06+01:00</created>
+		<issued>2004-06-12T11:54:06+01:00</issued>
+		<modified>2004-06-12T11:54:06+01:00</modified>
+		<id>index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=2</id>
+		<summary>A FAGGA oferece um conjunto completo de servi&amp;ccedil;os para planejamento, cria&amp;ccedil;&amp;atilde;o, produ&amp;ccedil;&amp;atilde;o, administra&amp;ccedil;&amp;atilde;o e log&amp;iacute;stica de eventos. Desde uma reuni&amp;atilde;o...</summary>
+	</entry>
+	<entry>
+		<title>Lembrancinhas</title>
+		<link rel="alternate" type="text/html" href="index.php?option=com_content&amp;task=view&amp;id=2&amp;Itemid=9"/>
+		<created>2004-08-09T08:30:34+01:00</created>
+		<issued>2004-08-09T08:30:34+01:00</issued>
+		<modified>2004-08-09T08:30:34+01:00</modified>
+		<id>index.php?option=com_content&amp;task=view&amp;id=2&amp;Itemid=9</id>
+		<summary>As lembran&amp;ccedil;inhas de casamento s&amp;atilde;o uma das maneiras de agradecer a presen&amp;ccedil;a dos convidados...</summary>
+	</entry>
+	<entry>
+		<title>12 Dicas para o dia perfeito</title>
+		<link rel="alternate" type="text/html" href="index.php?option=com_content&amp;task=view&amp;id=3&amp;Itemid=9"/>
+		<created>2004-08-09T08:30:34+01:00</created>
+		<issued>2004-08-09T08:30:34+01:00</issued>
+		<modified>2004-08-09T08:30:34+01:00</modified>
+		<id>index.php?option=com_content&amp;task=view&amp;id=3&amp;Itemid=9</id>
+		<summary>Um casamento por muito stressante que possa ser, especialmente na sua prepara&amp;ccedil;&amp;atilde;o, n&amp;atilde;o deve jamais ser uma fonte de mau...</summary>
+	</entry>
+</feed>

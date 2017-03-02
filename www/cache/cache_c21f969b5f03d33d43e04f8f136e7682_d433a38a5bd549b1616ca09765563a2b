@@ -1,0 +1,33 @@
+                       809949538<?xml version="1.0"?>
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+"http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91">
+<channel>
+<title>linuxcentral.com: Daily Specials</title>
+<link>http://linuxcentral.com/</link>
+<description>The /root for Linux resources</description>
+<language>en-us</language>
+<image>
+<title>linuxcentral.com</title>
+<url>http://linuxcentral.com/promo/lc_logo_rdf.gif</url>
+<link>http://linuxcentral.com</link>
+<width>143</width>
+<height>49</height>
+</image>
+
+<item>
+<title>Java Programming on Linux $ 32.95</title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=B000-189</link>
+</item>
+
+<item>
+<title>Lindows Office $ 52.95</title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=S000-227</link>
+</item>
+
+<item>
+<title>Wicked Cool Perl Scripts $ 18.95</title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=T000-317</link>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component">
+	<name>sef</name>
+	<author><![CDATA[ W.H.Welch, ARTIO, Yannick Gaultier]]></author>
+	<creationDate>June 10, 2007</creationDate>
+	<copyright>Yannick Gaultier - 2007</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>shumisha@gmail.com</authorEmail>
+	<authorUrl>www.siliana.com</authorUrl>
+	<version>1.2.4q / Beta </version>
+	<description>This component rewrites Joomla! URLs to be Search Engine Friendly. It is a continuation of the components previously named 404SEFx with improved integrated JoomFish (version 1.7) support. Please note this is still <strong>beta software</strong>, which means that we are still in the debugging process and some functions or behaviors may change in next version. Main (new) features are <br />
+<br />
+- comes with a <strong>(GPL) virtuemart plugin</strong> for building up URLs using categories, product names, etc<br /> with several backend parameters to control the way URLs are built. Now also available Community Builder plugin and a Fireboard plugin.
+- comes with a regular content plugin, and backend parameters, to reduce number of duplicate URLs (mypage-2.html, mypage-3.html,...)
+- <strong>compatible with Joomfish</strong> : URLs will be translated, including Virtuemart products, categories, etc if you have setup VM in a multi-lingual way. Language code is added to URLs (except for default language). Duplicate content due to language string added to URL should not happen (!)<br />
+<strong>Please note that you must use a replacement module for language selection</strong>. The one provided by the Joomfish project cannot handle properly URL translation. A modified version of this module has been installed automatically together with sh404SEF. It is called shJoomfish. To use it, display the module list of your site and publish it. You should also unpublish the module provided with Joomfish if you already use it.<br />
+- new <strong>URL caching system</strong> : SEF URLs are now cached into memory (and on a disk file) to improve speed. Speed was really an issue, particularly when using Virtuemart with many products. The number of SQL queries is dramatically reduced when using cache, and thus, loading time drops accordingly.<br />
+<br />
+
+<strong>Other improvements:</strong><br />
+- better handling of multi-pages article<br />
+- better handling of table-category and table-section elements, when having several pages. Total page number is now included in URL, so that things keep working if user changes number of items per page using the corresponding select list<br />
+
+<strong>This is beta sofwtare. It has not been tested on a wide range of setups, and may cause issues when used with other components or modules. I am talking about the Virtuemart part here, the URL rewriting part is fairly robust.</strong></description>
+	<install>
+		<queries>
+			<query>DROP TABLE IF EXISTS `#__redirection`</query>
+			<query>CREATE TABLE `#__redirection` (
+				`id` int(11) NOT NULL auto_increment,
+				`cpt` int(11) NOT NULL default '0',
+				`rank` int(11) NOT NULL default '0',
+				`oldurl` varchar(255) NOT NULL default '',
+				`newurl` varchar(150) NOT NULL default '',
+				`dateadd` date NOT NULL default '0000-00-00',
+				PRIMARY KEY  (`id`),
+  			KEY `newurl` (`newurl`),
+  			KEY `rank` (`rank`),
+				KEY `oldurl` (`oldurl`)
+				) TYPE=MyISAM;
+			</query>
+		</queries>
+	</install>
+  <installfile>install.sef.php</installfile>
+	<uninstall>
+		<queries>
+			<query>DROP TABLE IF EXISTS `#__redirection`</query>
+		</queries>
+	</uninstall>
+  	<uninstallfile>uninstall.sef.php</uninstallfile>
+	<files>
+		<filename>index.html</filename>
+		<filename>sef.php</filename>
+		<filename>sef404.php</filename>
+		<filename>sef_ext.php</filename>
+		<filename>shCache.php</filename>
+		<filename>cache/shCacheContent.php</filename>
+		<filename>sef_ext/com_banners.php</filename>
+		<filename>sef_ext/com_comprofiler.php</filename>
+		<filename>sef_ext/com_contact.php</filename>
+		<filename>sef_ext/com_content.php</filename>
+		<filename>sef_ext/com_docman.php</filename>
+		<filename>sef_ext/com_forum.php</filename>
+		<filename>sef_ext/com_fireboard.php</filename>
+		<filename>sef_ext/com_joomlaboard.php</filename>
+		<filename>sef_ext/com_letterman.php</filename>
+		<filename>sef_ext/com_login.php</filename>
+		<filename>sef_ext/com_magazine.php</filename>
+		<filename>sef_ext/com_newsfeeds.php</filename>
+		<filename>sef_ext/com_rd_rss.php</filename>
+		<filename>sef_ext/com_registration.php</filename>
+		<filename>sef_ext/com_search.php</filename>
+		<filename>sef_ext/com_virtuemart.php</filename>
+		<filename>sef_ext/com_weblinks.php</filename>
+		<filename>sef_ext/com_wrapper.php</filename>
+	</files>
+	<administration>
+		<menu>sh404SEF</menu>
+		<files>
+			<filename>404SEF_cpanel.php</filename>
+			<filename>admin.sef.html.php</filename>
+			<filename>admin.sef.php</filename>
+			<filename>index.html</filename>
+			<filename>install.sef.php</filename>
+			<filename>readme.inc</filename>
+			<filename>sef.class.php</filename>
+			<filename>toolbar.sef.html.php</filename>
+			<filename>toolbar.sef.php</filename>
+			<filename>uninstall.sef.php</filename>
+			<filename>config/config.sef.php</filename>
+			<filename>language/english.php</filename>
+			<filename>language/german.php</filename>
+			<filename>language/italian.php</filename>
+			<filename>language/spanish.php</filename>
+			<filename>language/french.php</filename>
+			<filename>language/hungarian.php</filename>
+			<filename>language/hungariani.php</filename>
+			<filename>language/russian.php</filename>
+			<filename>language/plugins/com_comprofiler.php</filename>
+		  <filename>language/plugins/com_content.php</filename>
+		  <filename>language/plugins/com_fireboard.php</filename>
+		  <filename>language/plugins/com_letterman.php</filename>
+		  <filename>language/plugins/com_magazine.php</filename>
+		  <filename>language/plugins/com_newsfeeds.php</filename>
+		  <filename>language/plugins/com_rd_rss.php</filename>
+		  <filename>language/plugins/com_search.php</filename>
+		  <filename>language/plugins/com_registration.php</filename>
+		  <filename>language/plugins/com_virtuemart.php</filename>
+		  <filename>language/plugins/com_weblinks.php</filename>
+		  
+			<filename>modules/mod_shJoomfish.css</filename>
+	    <filename>modules/mod_shJoomfish.php</filename>
+	    <filename>modules/mod_shJoomfish.tmp</filename>
+	</files>
+    <images>
+			<filename>images/config.png</filename>
+			<filename>images/cut-logs.png</filename>
+			<filename>images/cut-redirect.png</filename>
+			<filename>images/cut-url.png</filename>
+			<filename>images/down.png</filename>
+			<filename>images/help.png</filename>
+			<filename>images/info.png</filename>
+			<filename>images/logo.gif</filename>
+			<filename>images/logs.png</filename>
+			<filename>images/redirect.png</filename>
+			<filename>images/up.png</filename>
+			<filename>images/url.png</filename>
+    </images>
+	</administration>
+</mosinstall>

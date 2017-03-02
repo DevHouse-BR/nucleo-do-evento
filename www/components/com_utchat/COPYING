@@ -1,0 +1,45 @@
+phpFreeChat a simple, fast, and customizable chat server.
+Copyright (c) 2006 Stephane Gully <stephane.gully@gmail.com>
+
+utChat is a joomla component
+Copyright (c) 2007 Yann Sallou <syan@utopiart.com>
+
+
+PHPFREECHAT License description
+-------------------------------
+With the logo
+
+You plan to use the chat and you are ready to leave the linkback logo 
+pfc on your chat : the chat is totally free, and you can modify it. 
+The license is LGPL.
+Without the logo
+
+   1. You plan to use the chat on a non-commercial website 
+   (examples: non-profit association or amateur web site without advertising):
+          * Please make a symbolic donation of = €10 EUR or a code contribution.
+   2. You plan to use the chat on a commercial website but the chat
+    is used on a free part of the website:
+          * You can buy a permanent and non-exclusive chat license for €100 EUR (excl. tax).
+          * Or you can lease a temporary and non-exclusive chat license €5 EUR (excl. tax) per month.
+   3. You plan to use the chat on a commercial website and to use the chat in a part of the site where one must pay to access, OR you plan to sell the chat in a package:
+          * You can buy a permanent and non-exclusive chat license for €1000 EUR (excl. tax).
+          * Or you can lease a temporary and none-exclusive chat license €50 EUR (excl. tax) per month.
+
+Anyway, please contact us <contact@phpfreechat.net> to discuss about that and of course if you plan to make code contributions we will cut the price.
+
+_______________________________________________________________
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details. 
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the
+Free Software Foundation, 51 Franklin St, Fifth Floor,
+Boston, MA  02110-1301  USA

@@ -1,0 +1,74 @@
+                      1963455644<?xml version="1.0"?>
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+"http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91">
+<channel>
+<title>linuxcentral.com: New Products</title>
+<link>http://linuxcentral.com/</link>
+<description>The /root for Linux resources</description>
+<language>en-us</language>
+<image>
+<title>linuxcentral.com</title>
+<url>http://linuxcentral.com/promo/lc_logo_rdf.gif</url>
+<link>http://linuxcentral.com</link>
+<width>143</width>
+<height>49</height>
+</image>
+ 
+<item>
+<title>Slackware 12 x 86 DVD</title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=L000-684</link>
+</item>
+ 
+<item>
+<title>Fedora Core 7 PPC DVD</title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=L000-683</link>
+</item>
+ 
+<item>
+<title></title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=</link>
+</item>
+ 
+<item>
+<title></title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=</link>
+</item>
+ 
+<item>
+<title></title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=</link>
+</item>
+ 
+<item>
+<title></title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=</link>
+</item>
+ 
+<item>
+<title></title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=</link>
+</item>
+ 
+<item>
+<title></title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=</link>
+</item>
+ 
+<item>
+<title></title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=</link>
+</item>
+ 
+<item>
+<title></title>
+<link>http://linuxcentral.com/catalog/index.php3?prod_code=</link>
+</item>
+<textinput>
+<title>Find Products</title>
+<description>Search for products</description>
+<name>s_prod_name</name>
+<link>http://linuxcentral.com/cgi-bin/sred</link>
+</textinput>
+</channel>
+</rss>

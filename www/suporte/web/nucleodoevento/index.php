@@ -1,0 +1,1 @@
+<? $path = explode( "/", $HTTP_SERVER_VARS['PHP_SELF'] ) ; $total = count( $path ) ; $login = $path[$total-2] ; $winapp = isset( $HTTP_GET_VARS['winapp'] ) ? $HTTP_GET_VARS['winapp'] : "" ; HEADER( "location: ../../index.php?l=$login&winapp=$winapp" ) ; exit ; ?>

@@ -1,0 +1,84 @@
+                     -1468602885<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+
+<channel>
+<title>internetnews.com Developer News</title>
+<link>http://www.internetnews.com</link>
+<description>Real time developer news, programming trends, analysis, features and opinion for IT decision makers.</description>
+<language>en-us</language>
+<copyright>Copyright 1996-2006 Jupitermedia Corporation</copyright>
+<docs>http://backend.userland.com/rss</docs>
+<managingEditor>rss@jupitermedia.com</managingEditor>
+<webMaster>rss@jupitermedia.com</webMaster>
+
+<item>
+<title>Java EE 6 Spec: Finalized With a But</title>
+<link>http://redir.internet.com/rss/click/www.internetnews.com/dev-news/article.php/3689516</link>
+<description>Ready for the next enterprise Java? The specification has been finalized
+and products will be set to roll in 2008.
+</description>
+</item>
+
+<item>
+<title>Intel&#39;s Mobile Linux Initiative Misses Vendor Mark?</title>
+<link>http://redir.internet.com/rss/click/www.internetnews.com/dev-news/article.php/3689291</link>
+<description>The site doesn&#39;t have the support of one of the largest mobile Linux distributions. Does it matter?</description>
+</item>
+
+<item>
+<title>Salesforce Heads Off Software At The PaaS</title>
+<link>http://redir.internet.com/rss/click/www.internetnews.com/dev-news/article.php/3689096</link>
+<description>SaaS gets a facelift to become Platform as a Service (PaaS).</description>
+</item>
+
+<item>
+<title>Is Facebook Worth Its Platform Hype?</title>
+<link>http://redir.internet.com/rss/click/www.internetnews.com/dev-news/article.php/3688831</link>
+<description>With venture capital getting involved on the platform, should we be worried about another bubble?</description>
+</item>
+
+<item>
+<title>Open Source Semantic Desktop Is Coming</title>
+<link>http://redir.internet.com/rss/click/www.internetnews.com/dev-news/article.php/3688606</link>
+<description>Forget about the Semantic Web, the Semantic Desktop is coming (very) soon.</description>
+</item>
+
+<item>
+<title>Will You Marry Me? :)</title>
+<link>http://redir.internet.com/rss/click/www.internetnews.com/dev-news/article.php/3688716</link>
+<description>The emoticon turns 25.</description>
+</item>
+
+<item>
+<title>OpenSolaris Gets The Total Package</title>
+<link>http://redir.internet.com/rss/click/www.internetnews.com/dev-news/article.php/3688576</link>
+<description>Project led by Debian founder will make OpenSolaris easier to deploy.</description>
+</item>
+
+<item>
+<title>IBM Charts Open Beta Course For AIX 6</title>
+<link>http://redir.internet.com/rss/click/www.internetnews.com/dev-news/article.php/3688291</link>
+<description>Virtualization and security (what else?) are the focus of IBM&#39;s
+latest Unix operating system.
+</description>
+</item>
+
+<item>
+<title>Next Peek Arrives For Microsoft OneCare</title>
+<link>http://redir.internet.com/rss/click/www.internetnews.com/dev-news/article.php/3688441</link>
+<description>Microsoft isn&#39;t content to be number 2 in the antivirus space.
+
+</description>
+</item>
+
+<item>
+<title>IBM Extends Patent Pledge</title>
+<link>http://redir.internet.com/rss/click/www.internetnews.com/dev-news/article.php/3688311</link>
+<description>Big Blue adds over 150 key standards patents to the list of intellectual
+property it&#39;s willing to share.
+</description>
+</item>
+
+</channel>
+</rss>

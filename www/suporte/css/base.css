@@ -1,0 +1,91 @@
+<STYLE TYPE="text/css">
+<!--
+A { text-decoration: }
+form
+{
+	margin-bottom:0px;
+	margin-top:0px;
+}
+.smalltxt
+{
+	font-family: "arial";
+	font-size: 11px;
+}
+.minitxt
+{
+	font-family: "arial";
+	font-size: 10px;
+}
+.basetxt
+{
+	font-family: "arial";
+	font-size: 12px;
+}
+.input
+{
+	background-color : #FFFFFF;
+	border-bottom: #000000 1px solid;
+	border-left: #000000 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	color: black;
+	font-family: "arial";
+	font-size: 12px;
+}
+.select
+{
+	background-color : #FFFFFF;
+	border-bottom: #000000 1px solid;
+	border-left: #000000 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	color: black;
+	font-family: "arial";
+	font-size: 12px;
+}
+.checkbox
+{
+	border-bottom: #000000 0px solid;
+	border-left: #000000 0px solid;
+	border-right: #000000 0px solid;
+	border-top: #000000 0px solid;
+	color: black;
+	font-family: "arial";
+	font-size: 12px;
+}
+.radio
+{
+	border-bottom: #000000 0px solid;
+	border-left: #000000 0px solid;
+	border-right: #000000 0px solid;
+	border-top: #000000 0px solid;
+	color: black;
+	font-family: "arial";
+	font-size: 10px;
+}
+.button {
+	background-color : #E2E2E2;
+	font-weight : bold;
+	cursor: hand;
+	font-family: "arial";
+}
+.textarea
+{
+	background-color : #FFFFFF;
+	border-bottom: #000000 1px solid;
+	border-left: #000000 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	color: black;
+	font-family: "arial";
+	font-size: 12px;
+}
+.button_send {
+	background-color : #E2E2E2;
+	font-weight : bold;
+	cursor: hand;
+	font-family: "arial";
+	height: 32px;
+}
+-->
+</STYLE>

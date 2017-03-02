@@ -1,0 +1,1 @@
+<STRIP_FOR_PLAIN><script language="JavaScript">window.parent.window.options.stop_timer();</script><JKEEP><hr><font color="#FF0000">Visitor has declined the chat invitation.  <b>Chat has ended.</b></font><hr></STRIP_FOR_PLAIN>

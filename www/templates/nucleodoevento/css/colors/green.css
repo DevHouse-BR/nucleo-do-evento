@@ -1,0 +1,233 @@
+/*------------------------------------------------------------------------
+# JA Villadi 1.0 - Mar, 2007
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2007 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+-------------------------------------------------------------------------*/
+
+/* Normal link */
+a {
+	color: #70B229;
+}
+
+a:hover, a:active, a:focus {
+	color: #70B229;
+}
+
+/* Code text */
+pre, .code {
+	border-left: 5px solid #70B229;
+}
+
+blockquote {
+	background: url(../../images/green/quote.gif) 20px 10px no-repeat;
+}
+
+.dropcap {
+	color: #70B229;
+}
+
+p.stickynote {
+	background: url(../../images/green/sticky-bg.gif) no-repeat top right #70B229;
+}
+
+p.pinnote {
+	background: url(../../images/green/pin-bg.gif) no-repeat top right #70B229;
+}
+
+p.clipnote {
+	background: url(../../images/green/clip-bg.gif) no-repeat top right #70B229;
+}
+
+.bignumber {
+	color: #70B229;
+}
+
+.contentheading {
+	color: #70B229;
+}
+
+a.readon {
+	background-color: #70B229;
+	color: #FFFFFF;
+}
+
+a.readon:hover, a.readon:active, a.readon:focus {
+	color: #FFFFFF;
+	background-color: #333333;
+}
+
+/* MODULE
+--------------------------------------------------------- */
+div.moduletable h3 {
+	color: #70B229;
+}
+
+/* Normal Module */
+div.module h3 {
+	color: #70B229;
+}
+
+a.mainlevel#active_menu {
+	color: #70B229;
+}
+
+a.mainlevel#active_menu {
+	background: url(../../images/green/a-mainlevel-bg3.gif) no-repeat bottom right;
+}
+
+a.sublevel:hover,
+a.sublevel:active,
+a.sublevel:focus {
+	color: #70B229;
+	background: url(../../images/green/bullet-list2.gif) no-repeat 2% 55%;
+}
+
+#active_menu {
+	color: #70B229;
+}
+
+/* HEADER
+--------------------------------------------------------- */
+#ja-header {
+	background: url(../../images/green/header-bg.jpg) no-repeat top left;
+}
+
+.narrow #ja-header {
+	background: url(../../images/green/header-narrow-bg.jpg) no-repeat top left;
+}
+
+#ja-search .inputbox {
+	border: 1px solid #B0C951;
+}
+
+/* Split Menu
+------------------------------------------------------*/
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	background: url(../../images/green/tableft-active.gif) no-repeat center left!important;
+}
+
+#ja-splitmenu li.active a span,
+#ja-splitmenu li.active a:hover span,
+#ja-splitmenu li.active a:active span,
+#ja-splitmenu li.active a:focus span {
+	background: url(../../images/green/tabright-active.gif) no-repeat center right!important;
+}
+
+#ja-subnav a:hover,
+#ja-subnav a:active,
+#ja-subnav a:focus,
+#ja-subnav li.active a:focus {
+	color: #70B229!important;
+}
+
+#ja-subnav li.active a,
+#ja-subnav li.active a:hover,
+#ja-subnav li.active a:active,
+#ja-subnav li.active a:focus {
+	color: #70B229!important;
+}
+
+/* Son of Suckerfish Dropdowns
+---------------------------------------------------------*/
+#ja-cssmenu li a.active {
+	background: url(../../images/green/mainnav-active-bg.gif) repeat-x top left!important;
+}
+
+#ja-cssmenu li .first-item.active {
+	background: url(../../images/green/mainnav-fi-active-bg.gif) no-repeat top left!important;
+}
+
+#ja-cssmenu li li a.active {
+	color: #70B229!important;
+	background: none!important;
+}
+
+#ja-cssmenu ul li:hover, #ja-cssmenu ul ul li:hover,
+#ja-cssmenu ul li.sfhover, #ja-cssmenu ul li.havesubchildsfhover, #ja-cssmenu ul li.havesubchild-activesfhover,
+#ja-cssmenu ul ul li.sfhover, #ja-cssmenu ul ul li.havesubchildsfhover, #ja-cssmenu ul ul li.havesubchild-activesfhover {
+	background: url(../../images/green/child-active-bg.gif) repeat-x top left #70B229!important;
+}
+
+#ja-cssmenu li ul a:hover,
+#ja-cssmenu li ul a:active,
+#ja-cssmenu li ul a:focus {
+	color: #FFFFFF!important;
+}
+
+#ja-cssmenu li a.active-first-item {
+	background: url(../../images/green/mainnav-fi-active-bg.gif) no-repeat top left #70B229!important;
+}
+
+/* Transmenu
+---------------------------------------------------------*/
+.transMenu .item.hover {
+	background: url(../../images/green/child-active-bg.gif) top left repeat-x #70B229!important;
+}
+
+.transMenu .item#active {
+	background: url(../../images/green/child-active-bg.gif) top left repeat-x #70B229!important;
+}
+
+.transMenu .item#active:hover {
+	background: url(../../images/green/child-active-bg.gif) top left repeat-x #70B229!important;
+}
+
+a.havechild-mainlevel-active-trans,
+a.havechild-mainlevel-active-trans:hover,
+a.havechild-mainlevel-active-trans:active,
+a.havechild-mainlevel-active-trans:focus {
+	background: url(../../images/green/mainnav-active-bg.gif) repeat-x top left #70B229!important;
+}
+
+a.jahover-active {
+	background: url(../../images/green/mainnav-active-bg.gif) repeat-x top left #70B229!important;
+}
+
+a.mainlevel-active-trans,
+a.mainlevel-active-trans:hover,
+a.mainlevel-active-trans:active,
+a.mainlevel-active-trans:focus {
+	background: url(../../images/green/mainnav-active-bg.gif) repeat-x top left #70B229!important;
+}
+
+/* First item */
+a.havechild-mainlevel-active-trans-first,
+a.havechild-mainlevel-active-trans-first:hover,
+a.havechild-mainlevel-active-trans-first:active,
+a.havechild-mainlevel-active-trans-first:focus,
+a.mainlevel-active-trans-first,
+a.mainlevel-active-trans-first:hover,
+a.mainlevel-active-trans-first:active,
+a.mainlevel-active-trans-first:focus {
+	background: url(../../images/green/mainnav-fi-active-bg.gif) repeat-x top left #70B229!important;
+}
+
+/* Script Dropline Menu
+---------------------------------------------------------*/
+#jasdl-mainnav li.active a,
+#jasdl-mainnav li.active a:hover,
+#jasdl-mainnav li.active a:active,
+#jasdl-mainnav li.active a:focus {
+	background: url(../../images/green/tableft-active.gif) no-repeat center left!important;
+}
+
+#jasdl-mainnav li.active a span,
+#jasdl-mainnav li.active a:hover span,
+#jasdl-mainnav li.active a:active span,
+#jasdl-mainnav li.active a:focus span {
+	background: url(../../images/green/tabright-active.gif) no-repeat center right!important;
+}
+
+#jasdl-subnav a:hover,
+#jasdl-subnav a:active,
+#jasdl-subnav a:focus,
+#jasdl-subnav a:focus,
+#jasdl-subnav ul li.active a {
+	color: #70B229!important;
+}

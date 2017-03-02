@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="component" version="1.0.0">
+  <name>visualrecommend</name>
+  <creationDate>31 Mar 2007</creationDate>
+  <author>Bernard Gilly</author>
+  <license>This component is released under Creative Commons License.</license>
+  <copyright>2007 - Bernard Gilly - All rights reserved.</copyright>
+  <authorEmail>contact@visualclinic.fr</authorEmail>
+  <authorUrl>www.visualclinic.fr</authorUrl>
+  <version>1.1.0</version>
+  <description>Recommend Content by email (user-friendly and tracking)</description>
+  <files>
+    <filename>visualrecommend.php</filename>
+    <filename>visualrecommend.html.php</filename>
+	<filename>index.html</filename>
+  </files>
+  <administration>
+    <menu>VisualRecommend</menu>
+	  <submenu>
+	  	<menu task="controlpanel">Control Panel</menu>
+		<menu task="config">Configuration</menu>
+		<menu task="tracking">Tracking</menu>
+		<menu task="statstracking">Statistics</menu>
+		<menu task="exporttracking">Export All mails to CSV</menu>	
+		<menu task="exportreplytracking">Export Reply mails to CSV</menu>
+		<menu task="purgealltracking">Purge all tracking</menu>
+		<menu task="about">About</menu>
+      </submenu>	
+	 <files>
+	  	<filename>admin.visualrecommend.php</filename>
+	  	<filename>admin.visualrecommend.html.php</filename>
+	  	<filename>toolbar.visualrecommend.php</filename>
+	  	<filename>toolbar.visualrecommend.html.php</filename>
+		<filename>visualrecommend_config.php</filename>
+		<filename>version.php</filename>
+		<filename>index.html</filename>
+		<filename>languages/index.html</filename>
+		<filename>languages/french.php</filename>		
+		<filename>languages/english.php</filename>	
+		<filename>languages/finnish.php</filename>
+		<filename>languages/hungarian.php</filename>	
+		<filename>languages/hungariani.php</filename>		
+		<filename>csv/export.csv</filename>	
+		<filename>csv/index.html</filename>
+		<filename>mambots/index.html</filename>		
+		<filename>mambots/content/index.html</filename>		
+		<filename>mambots/content/visualrecommendbot.php</filename>		
+		<filename>mambots/content/visualrecommendbot.txt</filename>
+     </files>
+	 <images>
+	 	<filename>images/index.html</filename>
+	 	<filename>images/visualrecommend.gif</filename>
+		<filename>images/visualrecommend_icon.png</filename>
+		<filename>images/statistic_icon.png</filename>	
+		<filename>images/cpanel.png</filename>		
+		<filename>images/icons/config.png</filename>	
+		<filename>images/icons/info.png</filename>	
+		<filename>images/icons/massmail.png</filename>	
+		<filename>images/icons/stats.png</filename>	
+		<filename>images/icons/trash.png</filename>	
+		<filename>images/icons/user.png</filename>	
+		<filename>images/icons/index.html</filename>
+	 </images>
+  </administration>
+   <install>
+    <queries>	  
+      <query>			
+		CREATE TABLE IF NOT EXISTS `#__visualrecommend` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `contentid` int(11) NOT NULL default '0',
+		  `num_send` tinyint(1) NOT NULL default '0',
+		  `name` varchar(30) NOT NULL default '',
+		  `mail_sender` varchar(50) NOT NULL default '',
+		  `userid` int(11) NOT NULL default '0',
+		  `mails` text NOT NULL,
+		  `num_reply` tinyint(1) NOT NULL default '0',
+		  `mails_reply` text NOT NULL,
+		  `num_points` int(11) NOT NULL default '0',
+		  `ip` varchar(15) NOT NULL default '',
+		  `date` datetime NOT NULL default '0000-00-00 00:00:00',
+		  `link` varchar(255) NOT NULL default '',
+		  `keyreply` varchar(30) NOT NULL default '',
+		  PRIMARY KEY  (`id`)
+		) TYPE=MyISAM;
+      </query>
+    </queries>
+  </install> 
+  <installfile>install.visualrecommend.php</installfile>
+  <uninstallfile>uninstall.visualrecommend.php</uninstallfile>
+  <uninstall>
+  </uninstall>  
+  <params />
+</mosinstall>

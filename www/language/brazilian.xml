@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0.12" type="language">
+	<name>Brazilian</name>
+	<version>1.0.12.1</version>
+	<creationDate>2006-12-26</creationDate>
+	<author>Geraldo Sales</author>
+	<authorEmail>http://www.geraldosales.com.br</authorEmail>
+	<files>
+		<filename>brazilian.php</filename>
+	</files>
+</mosinstall>
